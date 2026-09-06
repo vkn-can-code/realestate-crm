@@ -1,0 +1,32 @@
+{
+  "name": "realestate-crm-backend",
+  "version": "1.0.0",
+  "description": "Backend API for the Real Estate CRM (call bot + chat bot dashboard)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "apify-client": "^2.25.0",
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "multer": "^2.2.0",
+    "nodemailer": "^9.0.6",
+    "pdfkit": "^0.15.0",
+    "playwright": "^1.62.1",
+    "puppeteer": "^25.9.0",
+    "teleproto": "^1.228.5",
+    "twilio": "^6.1.0",
+    "uuid": "^9.0.1",
+    "ws": "^8.21.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

@@ -1,0 +1,21 @@
+# DESIGN SPECIFICATION 01: LUXURY EDITORIAL LISTING
+
+- **TEMPLATE NAME**: Luxury Editorial Listing
+- **BUSINESS PURPOSE**: Promote ultra-high-net-worth luxury estate listings with high sophistication and prestige.
+- **TARGET AUDIENCE**: High-net-worth individuals, luxury home buyers, international real estate investors.
+- **PRIMARY PLATFORM**: Instagram Portrait (4:5 / 1080x1350)
+- **SECONDARY PLATFORM**: LinkedIn Post (1.91:1 / 1200x627)
+- **VISUAL EMOTION**: Exclusive, Prestigious, Timeless, Refined
+- **ART DIRECTION**: Vogue/Architectural Digest editorial aesthetic. High-contrast typography with serif headlines, generous white space or rich obsidian background, thin gold keyline rules (`#D97706`).
+- **LAYOUT ARCHITECTURE**: Full-bleed portrait hero image with an asymmetrical bottom-left text overlay anchored by a floating translucent gold-bordered glass panel (`backdrop-filter: blur(24px)`).
+- **IMAGE COMPOSITION**: Exterior architectural facade or dramatic twilight exterior filling 100% width and 75% height.
+- **TEXT HIERARCHY**:
+  - Category Badge: `Playfair Display` (12px, Uppercase, Gold `#F59E0B`, Letter spacing 3px)
+  - Title: `Playfair Display` (48px, Bold 800, Pure White `#FFFFFF`)
+  - Subheadline / Location: `Inter` (18px, Medium 500, Soft Gray `#CBD5E1`)
+  - Price Tag: `Playfair Display` (38px, Italic 700, Gold `#F59E0B`)
+- **COLOR STRATEGY**: Obsidian Black (`#020617`), Amber Gold (`#F59E0B`), Off-White (`#F8FAFC`).
+- **CTA STRATEGY**: "BY PRIVATE APPOINTMENT ONLY" gold pill button at bottom right.
+- **PROPERTY DATA USED**: Title, Price, Location, Exterior Hero Photo, Brokerage Crest.
+- **UNIQUE DESIGN CHARACTERISTICS**: Uses zero rounded cards or standard pill tags; relies entirely on classic editorial typography, gold hairlines, and glassmorphism.
+- **WHY THIS TEMPLATE IS DIFFERENT FROM THE OTHER 29**: It is the only template that utilizes serif luxury typography (`Playfair Display`) paired with italic price accents and Vogue-style gold keylines.

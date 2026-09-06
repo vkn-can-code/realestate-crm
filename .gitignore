@@ -1,0 +1,10 @@
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+backend/public/proposals/*.pdf
+.telegram_session
+backend/data/crm_database.json
+chrome-headless-shell/
+backend/chrome-headless-shell/

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+    <foreignObject width="1080" height="1350">
+      <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 1080px;
+    height: 1350px;
+    background: #0F172A;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+  }
+  .bg-image {
+    position: absolute;
+    top: 0; left: 0; width: 1080px; height: 1350px;
+    object-fit: cover;
+    opacity: 0.65;
+  }
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(15,23,42,0.4) 0%, rgba(15,23,42,0.85) 65%, #0F172A 100%);
+  }
+  .brand-header {
+    position: absolute;
+    top: 50px; left: 60px; right: 60px;
+    display: flex; justify-content: space-between; align-items: center;
+    z-index: 10;
+  }
+  .agency-title { font-family: 'Cinzel', serif; font-size: 32px; font-weight: 800; letter-spacing: 2px; color: #F8FAFC; }
+  .badge { background: #D97706; color: #FFF; padding: 10px 24px; border-radius: 30px; font-weight: 800; font-size: 18px; text-transform: uppercase; }
+  
+  .content-box {
+    position: absolute;
+    bottom: 60px; left: 60px; right: 60px;
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 32px;
+    padding: 48px;
+    z-index: 10;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+  .prop-type { font-size: 20px; text-transform: uppercase; letter-spacing: 3px; color: #94A3B8; font-weight: 700; }
+  .prop-title { font-family: 'Cinzel', serif; font-size: 52px; font-weight: 800; margin: 12px 0 20px; color: #FFFFFF; line-height: 1.15; }
+  .specs-row { display: flex; gap: 20px; margin-bottom: 28px; }
+  .spec-chip { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); padding: 12px 24px; border-radius: 14px; font-size: 22px; font-weight: 700; }
+  .price-tag { font-size: 56px; font-weight: 800; color: #F59E0B; margin-bottom: 24px; }
+  .footer-bar { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 24px; }
+  .agent-info { font-size: 22px; font-weight: 700; }
+  .phone-btn { background: #3B82F6; color: #FFF; padding: 14px 32px; border-radius: 16px; font-size: 22px; font-weight: 800; }
+</style>
+</head>
+<body>
+  <img class="bg-image" src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&auto=format&fit=crop" />
+  <div class="overlay"></div>
+  <div class="brand-header">
+    <div className="agency-title">RealtyPulse Real Estate Agency</div>
+    <div class="badge">EXCLUSIVE LUXURY</div>
+  </div>
+  <div class="content-box">
+    <div class="prop-type">Villa · Aluva, Kochi</div>
+    <div class="prop-title">Minimal Executive Villa</div>
+    <div class="specs-row">
+      <div class="spec-chip">🛏️ 4 BHK</div>
+      <div class="spec-chip">📐 2800 sqft</div>
+      <div class="spec-chip">📍 Aluva, Kochi</div>
+    </div>
+    <div class="price-tag">₹1.50 Crore</div>
+    <div class="footer-bar">
+      <div class="agent-info">Agent: Adwayth VS</div>
+      <div class="phone-btn">📞 +91 9633541720</div>
+    </div>
+  </div>
+</body>
+</html>
+    </foreignObject>
+  </svg>

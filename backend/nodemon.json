@@ -1,0 +1,20 @@
+{
+  "watch": [
+    "server.js",
+    "routes/",
+    "services/",
+    "integrations/",
+    "middleware/"
+  ],
+  "ignore": [
+    "data/*",
+    "public/*",
+    "*.json",
+    "data/*.json",
+    "data/crm_database.json",
+    "data/crm.db",
+    "data/crm.db-wal",
+    "data/crm.db-shm"
+  ],
+  "ext": "js,mjs,cjs"
+}
